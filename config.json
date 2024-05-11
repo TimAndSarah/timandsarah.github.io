@@ -1,5 +1,5 @@
 {
-  "baseURL": "https://timandsarah.wedding",
+  "baseURL": "https://timandsarah.github.io",
   "languageCode": "en-us",
   "title": "Tim & Sarah's Wedding",
   "show_comments": false,
@@ -38,6 +38,7 @@
   "params": {
     "background_image_1": "/image/IMG_4718.jpeg",
     "background_image_2": "/image/IMG_3347.JPG",
-    "background_image_3": "/image/IMG_9570.jpeg"
+    "background_image_3": "/image/IMG_9570.jpeg",
+    "logo": "/image/logo-white_small.png"
   }
 }

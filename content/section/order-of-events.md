@@ -5,11 +5,11 @@ title: "Order of Events"
 
 ## 5:00pm - Arrivals
 
-Everyone arrives at The Boat House
+Guests can start arriving at The Boat House from 5:00pm
 
 ## 5:30pm - Ceremony
 
-Bride walks at 5:30pm
+Ceremony will commence at 5:30pm
 
 ## 6:00pm - Reception
 
@@ -23,5 +23,5 @@ Dinner service indoors at The Boat House, followed by dancing.
 
 ## 11:00pm - Farewells
 
-_The venue bar closes at 11:30pm_ 
+_The venue closes at 11:30pm_ 
 
