@@ -1,0 +1,43 @@
+{
+  "baseURL": "https://timandsarah.wedding",
+  "languageCode": "en-us",
+  "title": "Tim & Sarah's Wedding",
+  "show_comments": false,
+  "disableKinds": [
+    "sitemap",
+    "RSS"
+  ],
+  "markup": {
+    "defaultMarkdownHandler": "goldmark",
+    "goldmark": {
+      "extensions": {
+        "definitionList": true,
+        "footnote": true,
+        "linkify": true,
+        "linkifyProtocol": "https",
+        "strikethrough": true,
+        "table": true,
+        "taskList": true,
+        "typographer": true
+      },
+      "parser": {
+        "attribute": {
+          "block": false,
+          "title": true
+        },
+        "autoHeadingID": true,
+        "autoHeadingIDType": "github"
+      },
+      "renderer": {
+        "hardWraps": false,
+        "unsafe": true,
+        "xhtml": false
+      }
+    }
+  },
+  "params": {
+    "background_image_1": "/image/IMG_4718.jpeg",
+    "background_image_2": "/image/IMG_3347.JPG",
+    "background_image_3": "/image/IMG_9570.jpeg"
+  }
+}
