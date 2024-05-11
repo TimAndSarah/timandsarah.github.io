@@ -1,0 +1,13 @@
+<!-- Accommodation -->
+
+<section id="travel-accommodation" class="section light">
+        <div class="section__svg">
+            {{ partial "svgs/gumleaf.svg" . }}
+        </div>
+
+        {{ $t := .Site.GetPage "/section/travel-accommodation" }}
+        <h1 class="section__heading">{{$t.Params.title}}</h1>
+        <section class="section__md-content">
+            {{ $t.Content }}
+        </section>
+    </section>

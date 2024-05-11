@@ -1,0 +1,26 @@
+<!-- The Wedding -->
+{{ $t := .Site.GetPage "/section/the_wedding" }}
+    <section id="when" class="section light">
+        <div class="section__svg">
+            {{ partial "svgs/bottlebrush.svg" . }}
+        </div>
+        <h1 class="section__heading">The Wedding</h1>
+        <section class="section__split">
+            <div>
+                <p class="section__subheading">When</p>
+                <p class="section__text--bold">
+                    {{ $t.Params.when }}
+                </p>
+            </div>
+            <div>
+                <p class="section__subheading">Where</p>
+                <p class="section__text--bold">
+                    {{ $t.Params.where.first }}
+                </p>
+                <p>
+                    {{ $t.Params.where.second }}
+                </p>
+            </div>
+        </section>
+    </section>
+        

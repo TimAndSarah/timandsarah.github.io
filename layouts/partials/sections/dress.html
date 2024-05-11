@@ -1,0 +1,14 @@
+<!-- Dress -->
+
+
+<section id="dress" class="section light">
+        <div class="section__svg">
+            {{ partial "svgs/eucalyptus.svg" . }}
+        </div>
+
+        {{ $t := .Site.GetPage "/section/dress" }}
+        <h1 class="section__heading">{{$t.Params.title}}</h1>
+        <section class="section__md-content">
+            {{ $t.Content }}
+        </section>
+    </section>
