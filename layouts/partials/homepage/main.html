@@ -1,4 +1,7 @@
+
 <main>
+    {{ partial "shared/navigation.html" .}}
+  
     <div class="image image1"></div>
     {{ partial "sections/the_wedding.html" .}}
 
@@ -6,8 +9,11 @@
     <div class="image image2"></div>
     {{ partial "sections/order_of_events.html" . }}
 
-
     <div class="image image3"></div>
+    {{ partial "sections/venue.html"  .}}
+    
+    
+    
     {{ partial "sections/accommodation.html" . }}
     
 
