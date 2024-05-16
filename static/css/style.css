@@ -34,9 +34,9 @@ html {
 }
 
 /* VARIABLES */
+
 :root {
   --main-font: 'Noto Sans', sans-serif;
-
   --cream: #FFFFFF;
   --light-green: #556259;
   --dark-green: #556259;
@@ -63,7 +63,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
 
-    height: 600px;
+    height: 500px;
   }
 }
 
@@ -452,11 +452,19 @@ html {
 
 .section__md-content h2 {
   margin-top: 1rem;
-  
   font-size: 1.25rem;
   color: inherit;
   font-style: italic;
 }
+
+.section__md-content h3 {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  color: inherit;
+  font-style: italic;
+  text-align: center;
+}
+  
 
 .section__md-content li {
   list-style-position: inside;
@@ -464,9 +472,9 @@ html {
   padding-left: 1rem;
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
-  
-  
-}
+} 
+
+
   .map {
     display: flex;
     justify-content: center;
