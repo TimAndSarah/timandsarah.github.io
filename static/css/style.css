@@ -440,18 +440,37 @@ html {
 
 @media only screen and (min-width: 800px) {
   .section__md-content p {
-    padding-left: 4rem;
     padding-right: 4rem;
+    padding-block: 10px;
   }
 }
 
+  .section__md-content a {
+    color: var(--light-green);
+  }
+
+
 .section__md-content h2 {
   margin-top: 1rem;
-
+  
   font-size: 1.25rem;
   color: inherit;
   font-style: italic;
 }
+
+.section__md-content li {
+  list-style-position: inside;
+  margin-left: 0;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  
+  
+}
+  .map {
+    display: flex;
+    justify-content: center;
+  }
 
 /* STANDALONE PAGE SPECIFIC */
 

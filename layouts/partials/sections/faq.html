@@ -1,0 +1,9 @@
+<!-- FAQ -->
+
+<section id="faq" class="section light">
+        {{ $t := .Site.GetPage "/section/faq" }}
+        <h1 class="section__heading">{{$t.Params.title}}</h1>
+        <section class="section__md-content">
+            {{ $t.Content }}
+        </section>
+    </section>

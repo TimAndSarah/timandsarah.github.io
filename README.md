@@ -44,13 +44,14 @@ https://github.com/SarahFrench/wedding-website
       - Pull the .md file in using {{ $t := .Site.GetPage "/section/MD_FILE_NAME_HERE" }}
     - Update the layouts/partials/homepage/main.html file to pull in the new section
       - Use Hugo code: {{ partial "sections/HTML_FILE_NAME_HERE.html" . }} in the place you want it
+    - Update the navigation 
   
   - Add an image to scroll past between sections: 
       - Ensure the image file you want is saved in the /static/image directory
       - Define the image in the params section of /config.json (such as "background_image_4": /image/IMG_FILE.JPG)
       - Define the image as a style in /layouts/partials/shared/dynamic_styles.html (such as .image4 { background-image: url("{{ .Site.Params.background_image_4 }}");} )
       - Update the /layouts/partials/homepage/main.html file to put a "div"" in the place you want the photo. Like this:  <div class="image image4"></div>
-      
+
       
       
       
