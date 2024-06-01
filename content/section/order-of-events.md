@@ -20,8 +20,3 @@ Canberra can still be quite cool and windy in early October, expect a max of 20Â
 ## 7:00pm - Dinner
 
 Dinner service indoors at The Boat House, followed by dancing.
-
-## 11:00pm - Farewells
-
-_The venue closes at 11:30pm_ 
-

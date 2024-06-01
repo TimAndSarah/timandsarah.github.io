@@ -3,8 +3,6 @@ draft: false
 title: "What is there to do in Canberra?"
 ---
 
-# What is there to do in Canberra?
-
 ## Food and drinks
 
 ### Cafes
@@ -12,7 +10,6 @@ title: "What is there to do in Canberra?"
 We highly recommend all of these cafes for coffee and breakfast/brunch:
 
  - [The Cupping Room](https://www.thecuppingroom.com.au/)
- - [Local Press Cafe](https://localpresscafe.com.au/)
  - [Barrio](https://www.barriocollective.com/)
  - [Intra](http://www.intracbr.com.au/)
 
