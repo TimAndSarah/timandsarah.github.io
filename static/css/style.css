@@ -46,6 +46,7 @@ html {
 
 .image {
   height: 50vh;
+  min-height: 600px;
   background-size: cover;
   background-position: bottom;
 }
@@ -129,6 +130,7 @@ html {
   z-index: 1;
   height: 80px;
   width: 100%;
+  top: 0;
   position: fixed;
   display: flex;
   flex-direction: row-reverse;
