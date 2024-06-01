@@ -43,7 +43,7 @@ https://github.com/SarahFrench/wedding-website
     - Add a .html file (or edit existing) in layouts/partials/sections
       - Pull the .md file in using {{ $t := .Site.GetPage "/section/MD_FILE_NAME_HERE" }}
     - Update the layouts/partials/homepage/main.html file to pull in the new section
-      - Use Hugo code: {{ partial "sections/HTML_FILE_NAME_HERE.html" . }} in the place you want it
+      - Use Hugo code: {{ partial "sections/HTML_FILE_NAME_HERE.html" . }} in the place you want it. Passing the " . " after the html file is very important here!
     - Update the navigation 
   
   - Add an image to scroll past between sections: 
