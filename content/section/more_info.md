@@ -12,7 +12,7 @@ All public transport in Canberra will be free the weekend of the wedding. Canber
 
 There is a bus stop close to the venue. You can catch the number 3 bus from the City Interchange (direction Airport), get off at stop "Russell Dr before Kelliher Dr" and walk about 400m down the hill towards the lake. Note though that there won't be any buses back late on a Sunday.
 
-Taxis can be [booked online](https://www.actcabs.com.au/bookonline.html/) and Uber also operates in Canberra.
+Taxis can be [booked online](https://www.actcabs.com.au/bookonline.html/) and Uber operates in Canberra. There is also free parking at the venue.
 
 ## Dress Code
 The dress code is formal attire. We suggest that men wear a suit and tie, and women wear a cocktail dress or dressy separates. The ceremony will be outdoors (weather permitting!) so please bring a jacket---maximum temperatures during October are around 20&deg;C. If the weather is looking a bit bleak we’ll hold both the ceremony and reception indoors at the Boat House.
