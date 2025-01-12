@@ -18,11 +18,11 @@
             {{ if .IsDir }}
                 <!-- Skip directories -->
             {{ else }}
-              
+              {{ $photoPath := printf "/wedding_photos/%s" .Name }}
                 {{ with resources.Get (printf "wedding_photos/%s" .Name) }}
                   {{ with .Resize "200x" }}
                 <div class="photo-item">
-                   <a href="{{ (printf "/%s" .Name) | relURL }}" target="_blank">
+                   <a href="{{ $photoPath | relURL }}" target="_blank">
                   <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="">
                   </a>
                 </div> 
