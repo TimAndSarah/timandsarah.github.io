@@ -62,6 +62,20 @@ html {
   }
 }
 
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Auto-adjust based on screen size */
+    gap: 16px; /* Space between photos */
+    margin: 0 auto;
+    max-width: 1200px; /* Optional: Limit the width of the gallery */
+}
+
+.photo-item img {
+    width: 100%; /* Makes sure images fill their container */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 8px; /* Optional: Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for effect */
+}
 /* HEADING SECTION */
 .header {
   min-height: 200px;
